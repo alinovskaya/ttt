@@ -1194,16 +1194,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9 col-xs-12 forma">
-					<form>
+					<form method="post" action="php/post.php">
 						<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Имя *'/>
 						<input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *'/>
 						<input type="text" class="col-md-12 col-xs-12 Subject" name='Subject' placeholder='Тема'/>
-						<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Сообщение *'></textarea>
+						<textarea class="col-md-12 col-xs-12 Message" rows="10" cols="45" name='Message' placeholder='Сообщение *'></textarea>
 						<div class="cBtn col-xs-12">
-							<ul>
-								<li class="clear"><a href="#"><i class="fa fa-times"></i>Очистить форму</a></li>
-								<li class="send"><a href="#"><i class="fa fa-share"></i>Отправить сообщение</a></li>
-							</ul>
+							<input class=" send fa fa-share" type= "submit" value= "Отправить сообщение">
 						</div>
 					</form>
 				</div>
