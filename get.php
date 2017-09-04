@@ -15,11 +15,11 @@ $backurl="index.html";  // На какую страничку переходит
 
 // Принимаем данные с формы
 
-$name=$_POST['name'];
+$name=$_GET['name'];
 
-$email=$_POST['email'];
+$email=$_GET['email'];
 
-$msg=$_POST['message'];
+$msg=$_GET['message'];
 
 
 
